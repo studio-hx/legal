@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Block Sage — Privacy Policy / 개인정보처리방침</title>
+<style>
+  :root {
+    --bg: #0f1419;
+    --surface: #1a1f2b;
+    --text: #e6edf3;
+    --muted: #9ca5b1;
+    --accent: #7aa7ff;
+    --border: rgba(255, 255, 255, 0.08);
+    --max: 760px;
+  }
+  @media (prefers-color-scheme: light) {
+    :root {
+      --bg: #f9fafb;
+      --surface: #ffffff;
+      --text: #1f2937;
+      --muted: #6b7280;
+      --accent: #2563eb;
+      --border: rgba(0, 0, 0, 0.08);
+    }
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0;
+    padding: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans KR", "Apple SD Gothic Neo", sans-serif;
+    font-size: 16px;
+    line-height: 1.7;
+  }
+  header {
+    padding: 48px 24px 24px;
+    text-align: center;
+    border-bottom: 1px solid var(--border);
+  }
+  header h1 {
+    margin: 0 0 8px;
+    font-size: 28px;
+    font-weight: 700;
+  }
+  header .meta {
+    color: var(--muted);
+    font-size: 14px;
+  }
+  .lang-switch {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    padding: 16px;
+    border-bottom: 1px solid var(--border);
+  }
+  .lang-switch button {
+    padding: 8px 16px;
+    border: 1px solid var(--border);
+    background: var(--surface);
+    color: var(--text);
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+    font-family: inherit;
+  }
+  .lang-switch button.active {
+    background: var(--accent);
+    color: #ffffff;
+    border-color: var(--accent);
+  }
+  main {
+    max-width: var(--max);
+    margin: 0 auto;
+    padding: 32px 24px 80px;
+  }
+  h2 {
+    margin-top: 36px;
+    font-size: 20px;
+    border-left: 4px solid var(--accent);
+    padding-left: 12px;
+  }
+  h3 { margin-top: 24px; font-size: 17px; }
+  p, li { font-size: 15px; }
+  ul, ol { padding-left: 24px; }
+  li { margin-bottom: 4px; }
+  a { color: var(--accent); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 16px 0;
+    font-size: 14px;
+  }
+  th, td {
+    border: 1px solid var(--border);
+    padding: 8px 12px;
+    text-align: left;
+  }
+  th { background: var(--surface); }
+  .section { display: none; }
+  .section.active { display: block; }
+  footer {
+    margin-top: 48px;
+    padding-top: 24px;
+    border-top: 1px solid var(--border);
+    color: var(--muted);
+    font-size: 13px;
+    text-align: center;
+  }
+  code { background: var(--surface); padding: 2px 6px; border-radius: 4px; font-size: 13px; }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Block Sage</h1>
+  <div class="meta">Privacy Policy · 개인정보처리방침</div>
+</header>
+
+<div class="lang-switch">
+  <button id="btn-ko" class="active" onclick="setLang('ko')">한국어</button>
+  <button id="btn-en" onclick="setLang('en')">English</button>
+</div>
+
+<main>
+
+<!-- ============ KOREAN ============ -->
+<section id="lang-ko" class="section active">
+  <p><strong>시행일</strong>: 2026-04-23 · <strong>서비스 제공자</strong>: GRION (그리온) · <strong>연락처</strong>: <a href="mailto:hsk922@nate.com">hsk922@nate.com</a></p>
+
+  <h2>1. 개요</h2>
+  <p>GRION(이하 "회사")은 이용자의 개인정보를 중요하게 생각하며, 「개인정보 보호법」 및 관련 법령을 준수합니다. 본 방침은 Block Sage 모바일 앱(이하 "서비스")에서 수집·이용·처리하는 정보와 이용자의 권리를 설명합니다.</p>
+
+  <h2>2. 수집하는 정보</h2>
+  <h3>2.1 이용자가 직접 제공하는 정보</h3>
+  <p>서비스는 회원가입·로그인을 요구하지 않으며, <strong>이용자의 이름, 이메일, 전화번호 등 개인식별정보를 직접 수집하지 않습니다.</strong></p>
+
+  <h3>2.2 앱 내 로컬 저장 정보 (기기 외부로 전송되지 않음)</h3>
+  <ul>
+    <li>게임 세션 상태 (진행 중 보드, 타이머, 점수, 입력 이력)</li>
+    <li>완료 기록 통계 (난이도별 완료 수, 최단 시간, 평균 시간)</li>
+    <li>일일 챌린지 출석 기록 및 연속 일수</li>
+    <li>앱 설정값 (테마, 언어 등)</li>
+  </ul>
+  <p>저장 매체: 이용자 기기의 <code>shared_preferences</code> 및 로컬 SQLite 데이터베이스<br/>
+  보관 기간: 이용자가 앱을 삭제하거나 데이터 초기화를 수행할 때까지</p>
+
+  <h3>2.3 자동 수집되는 익명 정보</h3>
+  <ul>
+    <li><strong>사용 이벤트</strong>: 퍼즐 시작/완료/실패, 광고 노출, 프리미엄 화면 진입</li>
+    <li><strong>기기 정보</strong>: 운영체제, 앱 버전, 언어 설정, 대략적인 지역 (국가 단위)</li>
+    <li><strong>광고 ID</strong>: 개인화 광고 동의 시에만 수집</li>
+  </ul>
+  <p>상기 정보는 특정 이용자를 식별하는 데 사용되지 않습니다.</p>
+
+  <h2>3. 정보의 이용 목적</h2>
+  <ul>
+    <li>서비스 제공 및 유지 (게임 진행 상태 저장·복원)</li>
+    <li>서비스 개선 (사용 패턴 분석을 통한 기능 개선)</li>
+    <li>광고 표시 및 수익화</li>
+    <li>구독 결제 관리</li>
+    <li>법적 의무 준수</li>
+  </ul>
+
+  <h2>4. 제3자 서비스</h2>
+  <table>
+    <thead><tr><th>서비스</th><th>목적</th><th>수집 범위</th><th>사업자</th></tr></thead>
+    <tbody>
+      <tr><td>Google Firebase Analytics</td><td>앱 사용 통계</td><td>익명 이벤트, 기기 정보</td><td><a href="https://firebase.google.com/support/privacy">Google LLC</a></td></tr>
+      <tr><td>Google AdMob</td><td>광고 표시</td><td>광고 ID, 기기 정보</td><td><a href="https://policies.google.com/technologies/ads">Google LLC</a></td></tr>
+      <tr><td>Google UMP</td><td>동의 관리</td><td>동의 상태</td><td><a href="https://support.google.com/admob/answer/10113207">Google LLC</a></td></tr>
+      <tr><td>RevenueCat</td><td>구독 결제 관리</td><td>익명 사용자 ID, 결제 이력</td><td><a href="https://www.revenuecat.com/privacy">RevenueCat, Inc.</a></td></tr>
+    </tbody>
+  </table>
+
+  <h2>5. 정보의 국외 이전</h2>
+  <ul>
+    <li>이전 국가: 미국 (Google LLC, RevenueCat, Inc.)</li>
+    <li>이전 시점: 서비스 사용 중 상시</li>
+    <li>이전 방법: 암호화된 HTTPS 통신</li>
+    <li>이용자는 이전에 동의하지 않을 권리가 있으며, 이 경우 서비스 이용이 제한될 수 있습니다.</li>
+  </ul>
+
+  <h2>6. 이용자의 권리</h2>
+  <ul>
+    <li><strong>열람권</strong>: 앱 내 통계 화면을 통해 확인 가능</li>
+    <li><strong>삭제권</strong>: 앱 삭제 또는 앱 내 "기록 초기화"</li>
+    <li><strong>광고 동의 철회</strong>: 앱 설정의 "광고 동의 재설정"</li>
+    <li><strong>분석 수집 거부</strong>: 기기 설정 → "광고 개인 맞춤화 제한"(Android) / "광고 추적 제한"(iOS)</li>
+    <li><strong>구독 해지</strong>: Google Play 스토어 구독 관리</li>
+    <li><strong>문의</strong>: hsk922@nate.com</li>
+  </ul>
+
+  <h2>7. 아동의 개인정보</h2>
+  <p>서비스는 만 13세 미만(또는 거주 국가의 해당 연령) 아동을 대상으로 하지 않습니다. 만약 만 13세 미만 아동의 정보가 수집된 사실이 확인될 경우 즉시 삭제합니다.</p>
+
+  <h2>8. 정보 보호</h2>
+  <ul>
+    <li>모든 외부 통신은 HTTPS로 암호화됩니다.</li>
+    <li>로컬 데이터는 기기의 앱 샌드박스에 저장됩니다.</li>
+    <li>인증 정보(RevenueCat 사용자 ID 등)는 암호화되어 저장됩니다.</li>
+  </ul>
+
+  <h2>9. 방침의 변경</h2>
+  <p>본 방침은 법령 또는 서비스 변경에 따라 수정될 수 있으며, 수정 시 앱 내 공지 또는 본 페이지를 통해 공개합니다.</p>
+
+  <h2>10. 문의처</h2>
+  <ul>
+    <li><strong>상호</strong>: GRION</li>
+    <li><strong>이메일</strong>: <a href="mailto:hsk922@nate.com">hsk922@nate.com</a></li>
+  </ul>
+
+  <h3>대한민국 이용자 추가 안내</h3>
+  <ul>
+    <li><a href="https://www.pipc.go.kr">개인정보보호위원회</a> (국번없이 182)</li>
+    <li><a href="https://privacy.kisa.or.kr">개인정보침해신고센터</a> (국번없이 118)</li>
+    <li><a href="https://ecrm.cyber.go.kr">경찰청 사이버수사국</a> (국번없이 182)</li>
+  </ul>
+</section>
+
+<!-- ============ ENGLISH ============ -->
+<section id="lang-en" class="section">
+  <p><strong>Effective Date</strong>: 2026-04-23 · <strong>Provider</strong>: GRION · <strong>Contact</strong>: <a href="mailto:hsk922@nate.com">hsk922@nate.com</a></p>
+
+  <h2>1. Overview</h2>
+  <p>GRION ("we", "us", or "our") values your privacy and complies with applicable data protection laws including GDPR, CCPA, and Korea's Personal Information Protection Act. This Privacy Policy explains what information the Block Sage mobile app (the "Service") collects, how it is used, and your rights.</p>
+
+  <h2>2. Information We Collect</h2>
+  <h3>2.1 Information You Provide</h3>
+  <p>The Service does <strong>not require account registration or login</strong> and does not directly collect personally identifiable information such as your name, email, or phone number.</p>
+
+  <h3>2.2 Information Stored Locally (Not Transmitted)</h3>
+  <ul>
+    <li>Game session state (current board, timer, score, input history)</li>
+    <li>Completion statistics (puzzles completed by difficulty, best time, average time)</li>
+    <li>Daily challenge attendance and streak count</li>
+    <li>App settings (theme, language, etc.)</li>
+  </ul>
+  <p>Storage: <code>shared_preferences</code> and local SQLite database on your device.<br/>
+  Retention: Until you uninstall the app or clear data within the app.</p>
+
+  <h3>2.3 Automatically Collected Anonymous Information</h3>
+  <ul>
+    <li><strong>Usage events</strong>: Puzzle started/completed/failed, ad impressions, premium screen views</li>
+    <li><strong>Device info</strong>: OS, app version, language, approximate region (country)</li>
+    <li><strong>Advertising ID</strong>: Only when you consent to personalized ads</li>
+  </ul>
+  <p>This information is not used to identify individual users.</p>
+
+  <h2>3. How We Use Information</h2>
+  <ul>
+    <li>Providing and maintaining the Service</li>
+    <li>Improving the Service</li>
+    <li>Displaying advertisements and monetization</li>
+    <li>Managing subscription payments</li>
+    <li>Complying with legal obligations</li>
+  </ul>
+
+  <h2>4. Third-Party Services</h2>
+  <table>
+    <thead><tr><th>Service</th><th>Purpose</th><th>Data</th><th>Provider</th></tr></thead>
+    <tbody>
+      <tr><td>Google Firebase Analytics</td><td>App usage statistics</td><td>Anonymous events, device info</td><td><a href="https://firebase.google.com/support/privacy">Google LLC</a></td></tr>
+      <tr><td>Google AdMob</td><td>Ad display</td><td>Advertising ID, device info</td><td><a href="https://policies.google.com/technologies/ads">Google LLC</a></td></tr>
+      <tr><td>Google UMP</td><td>Consent management</td><td>Consent status</td><td><a href="https://support.google.com/admob/answer/10113207">Google LLC</a></td></tr>
+      <tr><td>RevenueCat</td><td>Subscription management</td><td>Anonymous user ID, purchase history</td><td><a href="https://www.revenuecat.com/privacy">RevenueCat, Inc.</a></td></tr>
+    </tbody>
+  </table>
+
+  <h2>5. International Data Transfers</h2>
+  <ul>
+    <li><strong>Destination</strong>: United States</li>
+    <li><strong>Timing</strong>: Continuously during Service use</li>
+    <li><strong>Method</strong>: Encrypted HTTPS</li>
+    <li>You may decline transfer, though this may limit Service functionality.</li>
+  </ul>
+
+  <h2>6. Your Rights</h2>
+  <ul>
+    <li><strong>Access</strong>: View stored records via the in-app Statistics screen</li>
+    <li><strong>Deletion</strong>: Uninstall the app or select "Clear History" in app settings</li>
+    <li><strong>Withdraw ad consent</strong>: App settings → "Reset Ad Consent" (EU residents)</li>
+    <li><strong>Opt out of analytics</strong>: Device settings → "Limit Ad Personalization" (Android) / "Limit Ad Tracking" (iOS)</li>
+    <li><strong>Cancel subscription</strong>: Via Google Play Store</li>
+    <li><strong>Inquire</strong>: hsk922@nate.com</li>
+  </ul>
+  <h3>For EU/EEA/UK Residents (GDPR)</h3>
+  <ul>
+    <li>Right to object to processing</li>
+    <li>Right to data portability</li>
+    <li>Right to lodge a complaint with your local data protection authority</li>
+  </ul>
+  <h3>For California Residents (CCPA)</h3>
+  <ul>
+    <li>Right to know what personal information is collected</li>
+    <li>Right to delete personal information</li>
+    <li>Right to opt out of "sale" of personal information (we do not sell your data)</li>
+    <li>Right to non-discrimination for exercising your rights</li>
+  </ul>
+
+  <h2>7. Children's Privacy</h2>
+  <p>The Service is not directed at children under 13 (or the equivalent age in your jurisdiction). If we become aware that personal information of a child under 13 has been collected, we will delete it immediately.</p>
+
+  <h2>8. Data Security</h2>
+  <ul>
+    <li>All external communication is encrypted via HTTPS.</li>
+    <li>Local data is stored in the app's sandbox, inaccessible to other apps.</li>
+    <li>Authentication information is encrypted.</li>
+  </ul>
+
+  <h2>9. Changes</h2>
+  <p>This policy may be updated. Changes will be announced within the app or on this page.</p>
+
+  <h2>10. Contact</h2>
+  <ul>
+    <li><strong>Entity</strong>: GRION</li>
+    <li><strong>Email</strong>: <a href="mailto:hsk922@nate.com">hsk922@nate.com</a></li>
+  </ul>
+</section>
+
+<footer>
+  © 2026 GRION · Block Sage
+</footer>
+
+</main>
+
+<script>
+  function setLang(lang) {
+    document.querySelectorAll('.section').forEach(s => s.classList.remove('active'));
+    document.getElementById('lang-' + lang).classList.add('active');
+    document.getElementById('btn-ko').classList.toggle('active', lang === 'ko');
+    document.getElementById('btn-en').classList.toggle('active', lang === 'en');
+    document.documentElement.lang = lang;
+    try { localStorage.setItem('psPrivacyLang', lang); } catch (e) {}
+    window.scrollTo(0, 0);
+  }
+  try {
+    var saved = localStorage.getItem('psPrivacyLang');
+    if (saved === 'en' || (!saved && navigator.language && !navigator.language.startsWith('ko'))) {
+      setLang('en');
+    }
+  } catch (e) {}
+</script>
+
+</body>
+</html>

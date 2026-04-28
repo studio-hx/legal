@@ -1,7 +1,7 @@
-# Nonogram Sage Privacy Policy
+# Arrow Sage Privacy Policy
 
-**Effective Date**: 2026-04-23
-**Last Updated**: 2026-04-23
+**Effective Date**: 2026-04-28
+**Last Updated**: 2026-04-28
 **Service Provider**: GRION
 **Contact**: contact@studio-hx.io
 
@@ -9,7 +9,7 @@
 
 ## 1. Overview
 
-GRION ("we", "us", or "our") values your privacy and complies with applicable data protection laws including the GDPR, CCPA, and Korea's Personal Information Protection Act. This Privacy Policy explains what information the Nonogram Sage mobile app (the "Service") collects, how it is used, and your rights.
+GRION ("we", "us", or "our") values your privacy and complies with applicable data protection laws including the GDPR, CCPA, and Korea's Personal Information Protection Act. This Privacy Policy explains what information the Arrow Sage mobile app (the "Service") collects, how it is used, and your rights.
 
 ## 2. Information We Collect
 
@@ -17,18 +17,17 @@ GRION ("we", "us", or "our") values your privacy and complies with applicable da
 The Service does **not require account registration or login** and does not directly collect personally identifiable information such as your name, email, or phone number.
 
 ### 2.2 Information Stored Locally (Not Transmitted)
-- Game session state (current board, timer, mistake/hint usage history)
-- Completion statistics (puzzles completed by difficulty, best time, average time)
-- Daily challenge attendance records and streak count
-- App settings (mistake indicator on/off, haptic, theme, language, etc.)
+- Current level and progress state
+- Hint inventory and rewarded-use records
+- App settings (theme, etc.)
 
-Storage medium: `shared_preferences` and local SQLite database on your device.
-Retention: Until you uninstall the app or clear data within the app.
+Storage medium: `shared_preferences` on your device.
+Retention: Until you uninstall the app or clear/reset data within the app.
 
 ### 2.3 Automatically Collected Anonymous Information
 For app improvement and error tracking, the following **non-identifying anonymous information** is automatically collected:
 
-- **Usage events**: Puzzle started/completed/failed, ad impressions, premium screen views
+- **Usage events**: Puzzle started/completed/failed, arrow removals, hint usage, ad impressions
 - **Device info**: Operating system, app version, language, approximate region (country level)
 - **Advertising ID**: Collected only when you consent to personalized ads
 
@@ -39,7 +38,6 @@ This information is not used to identify individual users.
 - Providing and maintaining the Service (saving and restoring game progress)
 - Improving the Service (analyzing usage patterns to enhance features)
 - Displaying advertisements and monetization
-- Managing subscription payments
 - Complying with legal obligations
 
 ## 4. Third-Party Services
@@ -51,13 +49,12 @@ The Service uses the following third-party services. Each has its own privacy po
 | Google Firebase Analytics | App usage statistics | Anonymous events, device info | Google LLC | [Link](https://firebase.google.com/support/privacy) |
 | Google AdMob | Ad display | Advertising ID, device info | Google LLC | [Link](https://policies.google.com/technologies/ads) |
 | Google UMP | GDPR/CCPA consent management | Consent status | Google LLC | [Link](https://support.google.com/admob/answer/10113207) |
-| RevenueCat | Subscription management | Anonymous user ID, purchase history | RevenueCat, Inc. | [Link](https://www.revenuecat.com/privacy) |
 
 ## 5. International Data Transfers
 
 The third-party services above operate servers outside your country, and your information may be transferred internationally when using the Service.
 
-- **Destination**: United States (Google LLC, RevenueCat, Inc.)
+- **Destination**: United States (Google LLC)
 - **Timing**: Continuously during Service use
 - **Method**: Encrypted HTTPS communication
 - **Your right**: You may decline transfer, though this may limit Service functionality.
@@ -66,11 +63,10 @@ The third-party services above operate servers outside your country, and your in
 
 You may exercise the following rights:
 
-- **Right to access**: View stored records via the in-app Statistics screen
-- **Right to deletion**: Delete local data by uninstalling the app or selecting "Clear History" in app settings
+- **Right to access**: View current progress and settings within the app
+- **Right to deletion**: Delete local data by uninstalling the app or resetting progress in settings
 - **Right to withdraw ad consent**: Available in app settings "Reset Ad Consent" (EU residents only)
 - **Right to opt out of analytics**: Device settings → "Limit Ad Personalization" (Android) or "Limit Ad Tracking" (iOS)
-- **Right to cancel subscription**: Via Google Play Store subscription management
 - **Right to inquire**: contact@studio-hx.io
 
 ### For EU/EEA/UK Residents (GDPR)
@@ -93,7 +89,7 @@ The Service is not directed at children under 13 (or the equivalent age in your 
 
 - All external communication is encrypted via HTTPS.
 - Local data is stored in the app's sandbox, inaccessible to other apps.
-- Authentication information (such as RevenueCat user IDs) is encrypted.
+- Advertising and analytics identifiers are protected in transit according to platform security policies.
 
 ## 9. Changes to This Policy
 

@@ -3,7 +3,7 @@
 **Effective Date**: 2026-04-23
 **Last Updated**: 2026-04-23
 **Service Provider**: GRION
-**Contact**: hsk922@nate.com
+**Contact**: contact@studio-hx.io
 
 ---
 
@@ -71,7 +71,7 @@ You may exercise the following rights:
 - **Right to withdraw ad consent**: Available in app settings "Reset Ad Consent" (EU residents only)
 - **Right to opt out of analytics**: Device settings → "Limit Ad Personalization" (Android) or "Limit Ad Tracking" (iOS)
 - **Right to cancel subscription**: Via Google Play Store subscription management
-- **Right to inquire**: hsk922@nate.com
+- **Right to inquire**: contact@studio-hx.io
 
 ### For EU/EEA/UK Residents (GDPR)
 Under GDPR, you have additional rights to:
@@ -104,7 +104,7 @@ This policy may be updated due to legal or service changes. Changes will be anno
 For privacy-related inquiries, complaints, or data protection requests, please contact:
 
 - **Entity**: GRION
-- **Email**: hsk922@nate.com
+- **Email**: contact@studio-hx.io
 
 ### Additional Notice for Korean Users
 

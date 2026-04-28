@@ -66,6 +66,7 @@ https://play.google.com/store/account/subscriptions
 - Sudoku Sage: https://studio-hx.github.io/legal/sudoku_sage/
 - Block Sage: https://studio-hx.github.io/legal/block_sage/
 - Nonogram Sage: https://studio-hx.github.io/legal/nonogram_sage/
+- Arrow Sage: https://studio-hx.github.io/legal/arrow_sage/
 
 ## 8. 약관 변경
 
@@ -76,5 +77,5 @@ https://play.google.com/store/account/subscriptions
 
 서비스 또는 본 약관에 관한 문의:
 
-- 이메일: hsk922@nate.com
+- 이메일: contact@studio-hx.io
 - 사업자명: GRION

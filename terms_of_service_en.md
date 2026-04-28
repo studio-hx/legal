@@ -72,6 +72,7 @@ Personal data is handled according to each app's Privacy Policy.
 - Sudoku Sage: https://studio-hx.github.io/legal/sudoku_sage/
 - Block Sage: https://studio-hx.github.io/legal/block_sage/
 - Nonogram Sage: https://studio-hx.github.io/legal/nonogram_sage/
+- Arrow Sage: https://studio-hx.github.io/legal/arrow_sage/
 
 ## 8. Changes to These Terms
 
@@ -83,5 +84,5 @@ another appropriate method.
 
 For questions about the Service or these Terms:
 
-- Email: hsk922@nate.com
+- Email: contact@studio-hx.io
 - Legal business name: GRION

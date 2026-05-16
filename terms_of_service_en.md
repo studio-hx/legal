@@ -2,7 +2,7 @@
 
 Effective date: April 27, 2026
 
-These Terms of Service apply to Sudoku Sage, Block Sage, Nonogram Sage, and
+These Terms of Service apply to Sudoku Sage, Block Sage, Nonogram Sage, Arrow Sage, AEGIS, and
 other NOVA portfolio apps provided by GRION ("we", "us", or "our"). By using
 the apps, you agree to these Terms.
 
@@ -73,6 +73,7 @@ Personal data is handled according to each app's Privacy Policy.
 - Block Sage: https://studio-hx.github.io/legal/block_sage/
 - Nonogram Sage: https://studio-hx.github.io/legal/nonogram_sage/
 - Arrow Sage: https://studio-hx.github.io/legal/arrow_sage/
+- AEGIS: https://studio-hx.github.io/legal/aegis/
 
 ## 8. Changes to These Terms
 

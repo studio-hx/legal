@@ -3,7 +3,7 @@
 시행일: 2026-04-27
 
 본 서비스 약관은 GRION(이하 "회사")이 제공하는 Sudoku Sage, Block Sage,
-Nonogram Sage 및 향후 NOVA 포트폴리오 앱(이하 "서비스")의 이용에 적용됩니다.
+Nonogram Sage, Arrow Sage, AEGIS 및 향후 NOVA 포트폴리오 앱(이하 "서비스")의 이용에 적용됩니다.
 서비스를 이용하면 본 약관에 동의한 것으로 봅니다.
 
 ## 1. 서비스 이용
@@ -67,6 +67,7 @@ https://play.google.com/store/account/subscriptions
 - Block Sage: https://studio-hx.github.io/legal/block_sage/
 - Nonogram Sage: https://studio-hx.github.io/legal/nonogram_sage/
 - Arrow Sage: https://studio-hx.github.io/legal/arrow_sage/
+- AEGIS: https://studio-hx.github.io/legal/aegis/
 
 ## 8. 약관 변경
 
